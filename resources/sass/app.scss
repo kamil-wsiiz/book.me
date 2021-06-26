@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Icons
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+// Datepicker
+
+@import 'node_modules/vanillajs-datepicker/sass/datepicker';
+
+@import 'main.scss';

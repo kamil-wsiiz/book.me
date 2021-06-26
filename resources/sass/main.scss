@@ -1,0 +1,48 @@
+@import 'variables';
+
+.header {
+    @extend .fs-4;
+    @extend .text-dark;
+    @extend .text-decoration-none;
+}
+
+.header::first-letter {
+    color: $blue;
+}
+
+.categories {
+    @extend .row;
+    min-height: 100px;
+
+    a:nth-child(1n) {
+        .btn {
+            background-color: $purple;
+        }
+    }
+
+    a:nth-child(2n) {
+        .btn {
+            background-color: $green;
+        }
+    }
+
+    a:nth-child(3n) {
+        .btn {
+            background-color: $indigo;
+        }
+    }
+}
+
+.table-align-middle {
+    th, td {
+        vertical-align: middle;
+    }
+}
+
+.dates {
+    .btn-outline-primary
+    {
+        margin: 0.5rem !important;
+        border-radius: 0.25rem !important;
+    }
+}
